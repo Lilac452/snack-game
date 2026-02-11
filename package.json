@@ -9,18 +9,19 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
     "next": "^16.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "zustand": "^5.0.6",
-    "lucide-react": "^0.525.0",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^3.3.1",
-    "class-variance-authority": "^0.7.1",
-    "@radix-ui/react-dialog": "^1.1.14",
-    "@radix-ui/react-slot": "^1.2.3"
+    "zustand": "^5.0.6"
   },
   "devDependencies": {
+    "@types/node": "25.2.3",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
